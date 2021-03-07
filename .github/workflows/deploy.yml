@@ -11,6 +11,8 @@ jobs:
         run: yarn
       - name: Update submodules # Add this if you're managing contents with git repository.
         run: yarn update:submodules
+      - name: Build
+        run: yarn build && yarn export
       - uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
