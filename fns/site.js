@@ -1,1 +1,1 @@
-export * from '../contents/site.yml'
+export * from '../contents/site.yaml'

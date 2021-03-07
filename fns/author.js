@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 import * as yaml from 'js-yaml'
 
-const location = path.resolve(process.cwd(), 'contents', 'authors.yml')
+const location = path.resolve(process.cwd(), 'contents', 'authors.yaml')
 const file = fs.readFileSync(location)
 const authors = yaml.load(file)
 
