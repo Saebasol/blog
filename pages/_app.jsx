@@ -40,7 +40,7 @@ const App = ({ Component, pageProps }) => {
     <ChakraProvider theme={theme}>
       <NextSeo
         title={site.name}
-        description='Just a blog, __init__?'
+        description='Could you call us gentlemen?'
       />
       <Head>
         <link rel='shortcut icon' href='/static/saebasol.icon.png' />
