@@ -1,6 +1,6 @@
 const headers = [
   {
-    name: 'Typed.sh',
+    name: 'Saebasol',
     href: '/'
   },
   {

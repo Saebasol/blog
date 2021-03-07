@@ -6,7 +6,7 @@ import {
 import * as author from './author'
 import * as post from './post'
 
-export const hostname = 'https://typed.sh'
+export const hostname = 'https://blog.doujinshiman.ga'
 export const changefreq = 'weekly'
 export const priority = 0.8
 

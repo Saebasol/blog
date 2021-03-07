@@ -43,7 +43,7 @@ const App = ({ Component, pageProps }) => {
         description='Just a blog, __init__?'
       />
       <Head>
-        <link rel='shortcut icon' href='/static/typed.icon.png' />
+        <link rel='shortcut icon' href='/static/saebasol.icon.png' />
       </Head>
       <Box
         background='black'

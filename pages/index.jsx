@@ -40,7 +40,7 @@ const Page = props => {
       return
     }
 
-    window.location = 'https://www.google.com/search?q=' + encodeURIComponent('site:typed.sh ' + search)
+    window.location = 'https://www.google.com/search?q=' + encodeURIComponent('site:blog.doujinshiman.ga ' + search)
   }
 
   return (
@@ -62,12 +62,12 @@ const Page = props => {
             <Image
               width='95px'
               paddingRight='4px'
-              src='/static/typed.icon.png'
+              src='/static/saebasol.icon.png'
             />
             <Heading
               size='2xl'
             >
-              Typed.sh
+              Saebasol
             </Heading>
           </Center>
           <Text
@@ -78,7 +78,7 @@ const Page = props => {
                 : 'gray.300'
             }
           >
-            Just a blog, __init__?
+            Could you call us gentlemen?
           </Text>
           <HStack
             paddingTop='25px'
