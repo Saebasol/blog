@@ -9,4 +9,4 @@ export const headers = [
   }
 ]
 
-export const domain = 'http://localhost:3000'
+export const domain = 'http://blog.saebasol.org'
