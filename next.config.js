@@ -24,8 +24,11 @@ module.exports = withPlugins(
     },
     webpack: (config, { isServer }) => {
       if (!isServer) {
-        config.node = {
-          fs: 'empty'
+        config.resolve = {
+          ...config.resolve,
+          fallback: {
+            fs: false,
+          }
         }
       }
 
@@ -44,6 +47,6 @@ module.exports = withPlugins(
       'mdx'
     ],
     poweredByHeader: false,
-    trailingSlash: true // NOTE: Where seamless image magic happens!
-  }
+    trailingSlash: true, // NOTE: Where seamless image magic happens!
+  },
 )

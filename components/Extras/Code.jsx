@@ -1,9 +1,7 @@
 import * as React from 'react'
 import * as PropTypes from 'prop-types'
 import { Box } from '@chakra-ui/react'
-import Highlight, { defaultProps } from 'prism-react-renderer'
-
-import dracula from 'prism-react-renderer'
+import { Highlight, themes } from 'prism-react-renderer'
 
 const Code = ({ children, className = '', ...rest }) => {
   const language = className.replace(/language-/, '')
@@ -17,8 +15,7 @@ const Code = ({ children, className = '', ...rest }) => {
       borderRadius='xl'
     >
       <Highlight
-        {...defaultProps}
-        theme={dracula}
+        theme={themes.dracula}
         code={children.trim()}
         language={language}
       >

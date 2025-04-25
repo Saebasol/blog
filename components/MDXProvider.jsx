@@ -2,7 +2,7 @@ import * as React from 'react'
 import * as PropTypes from 'prop-types'
 import * as ChakraModules from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
-import MDXRuntime from '@mdx-js/mdx'
+import MDXRuntime from '@mdx-js/runtime'
 
 import { initialToLowerCase } from '../utils/text'
 
