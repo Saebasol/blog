@@ -3,7 +3,7 @@ import * as PropTypes from 'prop-types'
 import { Box } from '@chakra-ui/react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
 
-import dracula from 'prism-react-renderer/themes/dracula'
+import dracula from 'prism-react-renderer'
 
 const Code = ({ children, className = '', ...rest }) => {
   const language = className.replace(/language-/, '')
