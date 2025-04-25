@@ -48,5 +48,6 @@ module.exports = withPlugins(
     ],
     poweredByHeader: false,
     trailingSlash: true, // NOTE: Where seamless image magic happens!
+    output: 'export'
   },
 )
